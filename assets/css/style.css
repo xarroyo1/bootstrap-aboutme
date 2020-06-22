@@ -1,0 +1,136 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+p {
+  font-family: 'Playfair Display', serif;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: x-large;
+  padding-left: 0px;
+}
+
+body {
+    background-image: url(https://c1.wallpaperflare.com/preview/675/65/154/clean-clean-background-blur-green.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+   background-size: cover;
+   overflow-x: hidden;
+}
+
+img{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-top: 10px;
+    height: 170px;
+    float: left;
+    }
+
+.container {
+    background-color: whitesmoke;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 60px;
+    width: 700px;
+    height: 460px;
+    float: left;
+}
+
+.page-header {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-brand {
+    background-color: grey;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.vertical-line{
+      width: 1px;
+      float: left;
+      background-color: grey;
+    }
+
+#font {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+  }
+
+
+#portfolio {
+    height: 600px;
+    width: 420px;
+
+}
+
+#images {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+
+#contact {
+    height: 550px;
+}
+
+.card {
+    width: 28%;
+    float: right;
+    font-family: 'Playfair Display', serif;
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+
+  }
+
+footer {
+    padding: 10px;
+    padding-top: 20px;
+    background-color: grey;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+#mini-footer {
+    background-color: whitesmoke;
+    padding-top: 1px;
+}
+
+footer h2 {
+    font-size: 15px;
+}
+
+
+.mini-navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+.mini-navbar a {
+    position: relative;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+.mini-navbar a:hover {
+    background-color: #ddd;
+    color: black;
